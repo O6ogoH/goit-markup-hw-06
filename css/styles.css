@@ -602,7 +602,9 @@ ul {
 
   color: var(--white-text-color);
 }
-
+.footer-submit-form{
+  display: flex;
+  }
 .footer-submit-input {
   width: 358px;
   margin: 0;
