@@ -604,6 +604,7 @@ ul {
 }
 .footer-submit-form{
   display: flex;
+  width: 570px;
   }
 .footer-submit-input {
   width: 358px;
