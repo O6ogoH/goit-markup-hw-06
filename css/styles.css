@@ -602,7 +602,7 @@ ul {
 
   color: var(--white-text-color);
 }
-.footer-submit-form{
+.footer-submit-btn::after{
   display: flex;
   width: 570px;
   }
