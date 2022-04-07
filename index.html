@@ -67,7 +67,9 @@
       <!-- Герой -->
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-btn" type="button" data-modal-open>Заказать услугу</button>
+        <button class="hero-btn" type="button" data-modal-open>
+          Заказать услугу
+        </button>
       </section>
       <!-- Список преимуществ -->
       <section class="features-section">
@@ -161,7 +163,7 @@
                 height="294"
               />
               <p class="work-text">Дизайнерские решения</p>
-            </li>            
+            </li>
           </ul>
         </div>
       </section>
@@ -485,9 +487,20 @@
             <p class="footer-submit-text">Подпишитесь на рассылку</p>
             <div class="footer-submit-form">
               <form class="footer-submit-label">
-                <input class="footer-submit-input" type="email" name="submit-mail" id="submit-mail" placeholder="E-mail">
-               </form>
-              <button class="footer-submit-btn" type="submit">Подписаться</button>
+                <input
+                  class="footer-submit-input"
+                  type="email"
+                  name="submit-mail"
+                  id="submit-mail"
+                  placeholder="E-mail"
+                />
+                <button class="footer-submit-btn" type="submit">
+                  Подписаться
+                </button>
+              </form>
+              <button class="footer-submit-btn" type="submit">
+                Подписаться
+              </button>
             </div>
           </div>
         </div>
@@ -495,57 +508,63 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-          <button type="button" class="close-btn" data-modal-close>
-            <svg class="modal-icon" width="11" height="11">
-              <use href="./images/icons.svg#icon-vector"></use>
+        <button type="button" class="close-btn" data-modal-close>
+          <svg class="modal-icon" width="11" height="11">
+            <use href="./images/icons.svg#icon-vector"></use>
+          </svg>
+        </button>
+
+        <form class="form">
+          <span class="form-title"
+            >Оставьте свои данные, мы вам перезвоним</span
+          >
+
+          <div class="form-field top-title">
+            <label class="form-label" for="name">Имя</label>
+            <input class="form-input" type="text" name="name" id="name" />
+            <svg class="input-icon" width="12" height="12">
+              <use href="./images/icons.svg#icon-name"></use>
             </svg>
-          </button>
-          
-          <form class="form">
-            <span class="form-title">Оставьте свои данные, мы вам перезвоним</span>
-                 
-            <div class="form-field top-title">
-              <label class="form-label" for="name">Имя</label>
-              <input class="form-input" type="text" name="name" id="name">
-              <svg class="input-icon" width="12" height="12">
-                <use
-                    href="./images/icons.svg#icon-name"
-                ></use>
-              </svg>
-            </div>
-            <div class="form-field">
-              <label class="form-label" for="tel">Телефон</label>
-              <input class="form-input" type="tel" name="tel" id="tel">
-              <svg class="input-icon" width="12" height="12">
-                <use
-                    href="./images/icons.svg#icon-tel"
-                ></use>
-              </svg>
-            </div>
-            <div class="form-field">
-              <label class="form-label" for="email">Почта</label>
-              <input class="form-input" type="email" name="email" id="email">
-              <svg class="input-icon" width="12" height="12">
-                <use
-                    href="./images/icons.svg#icon-mail"
-                ></use>
-              </svg>
-            </div>
-            <div class="form-field">
-              <label class="comment-label" for="comment">Комментарий</label>
-              <textarea class="comment" name="comment" id="comment" rows="9" placeholder="Введите текст"></textarea>
-            </div>
-            <div class="form-field-chek">
-              
-              <label class="policy-label" for="policy">
-                <input class="form-checkbox" type="checkbox" name="policy" id="policy">
-                <span class="icon-chek"></span>
-                Соглашаюсь с рассылкой и принимаю <a class="policy-link" href="">Условия договора</a>
-              </label>
-              
-            </div>
-            <button class="form-btn" type="submit">Отправить</button>
-          </form>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="tel">Телефон</label>
+            <input class="form-input" type="tel" name="tel" id="tel" />
+            <svg class="input-icon" width="12" height="12">
+              <use href="./images/icons.svg#icon-tel"></use>
+            </svg>
+          </div>
+          <div class="form-field">
+            <label class="form-label" for="email">Почта</label>
+            <input class="form-input" type="email" name="email" id="email" />
+            <svg class="input-icon" width="12" height="12">
+              <use href="./images/icons.svg#icon-mail"></use>
+            </svg>
+          </div>
+          <div class="form-field">
+            <label class="comment-label" for="comment">Комментарий</label>
+            <textarea
+              class="comment"
+              name="comment"
+              id="comment"
+              rows="9"
+              placeholder="Введите текст"
+            ></textarea>
+          </div>
+          <div class="form-field-chek">
+            <label class="policy-label" for="policy">
+              <input
+                class="form-checkbox"
+                type="checkbox"
+                name="policy"
+                id="policy"
+              />
+              <span class="icon-chek"></span>
+              Соглашаюсь с рассылкой и принимаю
+              <a class="policy-link" href="">Условия договора</a>
+            </label>
+          </div>
+          <button class="form-btn" type="submit">Отправить</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
