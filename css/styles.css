@@ -603,7 +603,7 @@ ul {
   color: var(--white-text-color);
 }
 .footer-submit-btn::after{
-  display: flex;
+  display:flex;
   width: 570px;
   }
 .footer-submit-input {
